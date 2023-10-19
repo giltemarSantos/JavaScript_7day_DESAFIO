@@ -1,23 +1,17 @@
-//name colaborador
-document.getElementById('nameColaborador').innerHTML = 'alexander pires almeida'
 
-//name Empresa
-document.getElementById('coorperative').innerHTML = 'Gct - Gerenciamento e Controle de Transito S/A'
+//declaração
+    let priceProduct = Number(prompt('Informe o valor do produto:'))
 
-//name CNPJ
-document.getElementById('CNPJ').innerHTML = '01.466.431/0001-00'
+//condicional
+    if (priceProduct > 20) {
+        document.getElementById('result').innerHTML = 'Compra Aprovada'
+    }else{
+        document.getElementById('result').innerHTML = 'Compra Negada'    
+    }
 
-//name Endereço
-document.getElementById('endereco').innerHTML = 'Rodovia Jorge Amado SN - Banco da Vitória - Ilhéus - Bahia'
 
-//name ColName
-document.getElementById('colName').innerHTML = 'Alexander Pire Almeida'
 
-//name CPF
-document.getElementById('cpf').innerHTML = '326.754.745-84'
 
-//name Hora/Data
-document.getElementById('hourDate').innerHTML = '09/10/2023 - 08:22h'
 
 
 
