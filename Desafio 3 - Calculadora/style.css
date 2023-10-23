@@ -1,0 +1,76 @@
+
+body {
+	background: #6eb37f;
+	background-image: url(./Assets/img/bgc.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.wrapper {
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #262626;
+	padding: 50px;
+	color: #fff;
+	text-align: center;
+	border-radius: 25px;
+}
+.wrapper h2 {
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 10%;
+}
+input[type="text"] {
+	height: 40px;
+	margin-bottom: 8px;
+	padding-left: 8px;
+
+}
+input[type="text"] {
+	font-size: 24px;
+	padding-left: 8px;
+}
+
+.boxNum::placeholder
+{
+	font-size: 1rem;
+	color: #aaaaaa;
+	font-style: italic;
+}
+
+button {
+	background: #EE4477;
+	border: none;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+button:hover
+{
+	background: #b9355d;
+}
+
+button:active
+{
+	background: #9335b9;
+}
+
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+	
+}
+
+b {
+	font-size: 30px;
+}
+

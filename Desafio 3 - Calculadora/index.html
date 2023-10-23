@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="./Assets/ico/Calculator_.ico" type="image/x-icon">
+	<title>Simple Calculator using Javascript</title>
+</head>
+<body>
+	<div class="wrapper">
+		<h2>Simple Calculator</h2>
+		<input class="boxNum" id="num-one" name="num-one" type="text" placeholder="Informe o primeiro número" autofocus><br>	
+		<input class="boxNum" id="num-two" name="num-two" type="text" placeholder="Informe o segundo número" autofocus><br>
+		<br>
+		<input checked id="box1" name="sign-area" type="radio" value="add"><b style="margin-right:5px;">+</b> 
+		<input id="box2" name="sign-area" type="radio" value="subtract"><b style="margin-right:5px;">-</b> 
+		<input id="box3" name="sign-area" type="radio" value="multiply"><b style="margin-right:5px;">*</b> 
+		<input id="box4" name="sign-area" type="radio" value="divide"><b>/</b><br>
+		<br>
+		<button onclick="outcome()" type="button">calculate</button>
+		<br>
+		<h1 id="resultArea"></h1>
+	</div>
+	<script src="index.js">
+	</script> 
+
+</body>
+</html>
